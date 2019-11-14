@@ -1,6 +1,14 @@
 <template>
   <div class="about">
-    <h1>no es preciso actualizar</h1>
+    <h1>Hello {{ name }}</h1>
+    <h1>Tu edad es:  {{ edad }} años</h1>
+    <button v-on:click="saludar()"> SALUDAR!</button>
+    <button v-on:click="saludar()"> SALUDAR!</button>
+    <button v-on:click="saludar()"> SALUDAR!</button>
+    <button v-on:click="saludar()"> SALUDAR!</button>
+    <button v-on:click="saludar()"> SALUDAR!</button>
+    <button v-on:click="saludar()"> SALUDAR!</button>
+    <button v-on:click="saludar()"> SALUDAR!</button>
     <button v-on:click="saludar()"> SALUDAR!</button>
   </div>
 </template>
@@ -13,6 +21,7 @@
 
 
 <script>
+
 export default {
   name: 'about-component',
 
@@ -23,8 +32,8 @@ export default {
   },
   data: () => {
     return {
-      var1: 4567,
-      name: 'ernesto'
+      edad: 35,
+      name: 'Ernesto Chávez '
     }
   }
 }
