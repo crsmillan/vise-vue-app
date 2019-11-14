@@ -30,6 +30,8 @@ export default {
       alert('hola ')
     }
   },
+
+  
   data: () => {
     return {
       edad: 35,
